@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  background: #F3F4F6;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+input, select {
+  @apply border font-medium border-[#D2D5DA] rounded-lg bg-white px-3 py-3 text-[16px] w-[80%] placeholder:text-[#394150];
+}
+
+.contact input, select {
+  @apply w-full bg-[#F3F4F6]
+}
+
+input[type="button"], input[type="submit"] {
+  @apply border-0 bg-[#1D1D1F] text-white
+}
+
+.price {
+  @apply flex justify-between
+}
+
+.formInp {
+  @apply space-y-2 w-full
+}
+
+.formInp label {
+  @apply text-[#394150] font-bold text-sm
+}
+
+.formDir {
+  @apply flex space-x-4
+}
