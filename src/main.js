@@ -1,7 +1,7 @@
 const PRODUCTS = [
   {
     id: 1,
-    thumbnail: './public/resources/Gold.png',
+    thumbnail: 'resources/Gold.png',
     name: 'iPhone 12 Pro',
     color: 'Golden',
     quantity: 1,
@@ -9,7 +9,7 @@ const PRODUCTS = [
   },
   {
     id: 1,
-    thumbnail: './public/resources/Apple-watch.png',
+    thumbnail: 'resources/Apple-watch.png',
     name: 'Apple Watch',
     color: 'Blue',
     quantity: 1,
@@ -17,7 +17,7 @@ const PRODUCTS = [
   },
   {
     id: 1,
-    thumbnail: './public/resources/iMac.png',
+    thumbnail: 'resources/iMac.png',
     name: 'iMac',
     color: 'Green',
     quantity: 1,
